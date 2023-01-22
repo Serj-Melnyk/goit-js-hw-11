@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 11</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <form class="search-form" id="search-form">
+        <input class="form__input" type="text" name="searchQuery" autocomplete="off" placeholder="Search images..." />
+        <button class="form__btn" disabled="true" type="submit">Search</button>
+        <!-- <button class="form__story" type="button">Story</button> -->
+    </form>
+    <button class="btn__dellet" type="button">Clear up</button>
+
+    <div class="modal visually-hidden">
+        <div class="history"></div>
+    </div>
+
+    <div class="gallery" id="rgta"></div>
+    <div id="scrollArea"></div>
+
+    <script src="index.js" type="module"></script>
+    <!-- <script src="./js/history.js" type="module"></script> -->
+</body>
+
+</html>
